@@ -1,5 +1,6 @@
 # Installing nodes on Ubuntu Local Machine
 ## Pre-requisites
+
 Make sure your local machine has Git and Git-LFS. Instructions are available [here](https://git-lfs.github.com/).
 ```
 Example: using command line
@@ -35,7 +36,8 @@ rm -rf cmake-3.2.2
   ```
 
 ## Preparing the Folder Structure
-1. Make a folder named `rxm` in your `/home` folder. Open terminal using <code>Ctrl + Alt + T</code>
+
+1. Make a folder named `rxm` in your `/home` folder.
 ```
 mkdir rxm && cd rxm
 ```
@@ -69,6 +71,7 @@ cd /path/to/RxMachineDependencies
 Replace `/path/to/prefix` with `/home/rxm/rxdeps-native`
 
 ## Building the nodes
+
 Go to `/home/rxm/RxOne/RxMachine` and run the following commands
 ```
 ./change_ip.sh 127.0.0.1
