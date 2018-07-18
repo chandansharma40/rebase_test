@@ -1,4 +1,4 @@
-# Installing nodes on Ubuntu Local Machine to run them locally
+# Installing nodes on Ubuntu Local Machine
 ## Pre-requisites
 ```
 sudo apt-get install git
