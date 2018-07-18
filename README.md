@@ -40,8 +40,6 @@ rm -rf cmake-3.2.2
 ## Preparing the Folder Structure
 1. Make a folder named `rxm` in your `/home` folder. Open terminal using <code>Ctrl + Alt + T</code>
 ```
-cd ~
-cd ..
 mkdir rxm && cd rxm
 ```
 2. Now we're ready to clone the repositories in your local machine
