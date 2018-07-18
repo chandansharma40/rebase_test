@@ -37,7 +37,7 @@ rm -rf cmake-3.2.2
   sudo ln -s /usr/bin/g++-4.9 /usr/bin/g++ 
   ```
 
-# Preparing the Folder Structure
+## Preparing the Folder Structure
 1. Make a folder named `rxm` in your `/home` folder. Open terminal using <code>Ctrl + Alt + T</code>
 ```
 cd ~
@@ -60,7 +60,7 @@ git clone https://<username>:<password>@github.com/ReflexionMed/RxMachineDepende
 `mkdir rxdeps-native`
 5. Now if you do `ls` you should be able to see three folders at the location `/home/rxm`
 
-# Building RxMachineDependencies
+## Building RxMachineDependencies
 
 Note that you must *not* source the QNX environment file to build natively.
 
@@ -73,7 +73,7 @@ cd /path/to/RxMachineDependencies
 
 Replace `/path/to/prefix` with `/home/rxm/rxdeps-native`
 
-# Building the nodes
+## Building the nodes
 Go to `/home/rxm/RxOne/RxMachine` and run the following commands
 ```
 ./change_ip.sh 127.0.0.1
