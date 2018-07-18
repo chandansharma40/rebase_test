@@ -1,10 +1,9 @@
-# Installing nodes on Ubuntu Local Machine
-# Pre-requisites
+# Installing nodes on Ubuntu Local Machine to run them locally
+## Pre-requisites
 ```
 sudo apt-get install git
 ```
-Make sure your local machine has Git-LFS
-Instructions are available [here](https://git-lfs.github.com/).
+Make sure your local machine has Git-LFS. Instructions are available [here](https://git-lfs.github.com/).
 ```
 Example: using command line
 First install curl(if not already installed). Followed by commands shown below
