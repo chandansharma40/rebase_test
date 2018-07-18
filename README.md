@@ -55,7 +55,7 @@ git clone https://<username>:<password>@github.com/ReflexionMed/RxOne.git
 3. In the same folder `/home/rxm`, we need to have RxMachineDependencies as well, so after cloning RxOne, in the same location
 ```
 git init
-git clone https://github.com/ReflexionMed/RxMachineDependencies.git
+git clone https://<username>:<password>@github.com/ReflexionMed/RxMachineDependencies.git
 ```
 4. Also, run the following command from the same location
 `mkdir rxdeps-native`
